@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            body
+            {
+                padding-top: 50%;
+                
+                background-image: url("bgimage7.jpeg");
+                background-size: cover;
+                
+            }
+
+        button {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: inset;
+            cursor: pointer;
+            width: 70%;
+            opacity: 0.9;
+            margin-left: 25%;
+            font-family: bradley hand itc;
+            font-weight: bolder;
+            font-size: 22px;
+            border-radius: 30px;
+            }
+
+        button:hover {
+            opacity:1;
+            background-color: rgba(255, 255, 255, 0.3);
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                 transform: scale(1.3);
+            }
+
+        </style>
+    </head>
+    <body>
+        Select State<br><br>
+        <form action="/action_page.php" style="border:1px solid #ccc">
+        <button type = button><a href = "guj.jpeg" target = "showmap">Gujarat</a></button>
+        <br><br>
+        <button type = button><a href = raj.jpeg target="showmap">Rajasthan</a></button>
+        <br><br>
+        <button type = button><a href = bgimage1.jpeg target="showmap">Madhya Pradesh</a></button>
+        <br><br>
+        <button type = button><a href = bgimage2.jpeg target="showmap">Maharashtra</a></button>
+        <br><br>
+        <button type = "submit" value = goback><a href = homepage.html target = display>Back to Homepage</a></button>
+        </form>
+    </body>
+</html>
